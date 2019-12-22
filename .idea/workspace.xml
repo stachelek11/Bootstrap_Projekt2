@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90d949a3-dfc9-4ff5-9ff1-e619a192ec8c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Uo8kz3t82d6DfdDNAi3FxcXuZ9" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zdjecia" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\css" />
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\js" />
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap" />
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\zdjecia" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\zdjecia" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90d949a3-dfc9-4ff5-9ff1-e619a192ec8c" name="Default Changelist" comment="" />
+      <created>1576011734564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576011734564</updated>
+      <workItem from="1576011738384" duration="2535000" />
+      <workItem from="1576035382568" duration="143000" />
+      <workItem from="1576798113624" duration="5489000" />
+      <workItem from="1576809696875" duration="700000" />
+      <workItem from="1576821694590" duration="3080000" />
+      <workItem from="1576828715340" duration="2237000" />
+      <workItem from="1576839647756" duration="597000" />
+      <workItem from="1576875873638" duration="9560000" />
+      <workItem from="1576893910339" duration="4391000" />
+      <workItem from="1576923104768" duration="23893000" />
+      <workItem from="1576988464440" duration="10004000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
