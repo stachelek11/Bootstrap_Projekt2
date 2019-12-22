@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90d949a3-dfc9-4ff5-9ff1-e619a192ec8c" name="Default Changelist" comment="" />
+    <list default="true" id="90d949a3-dfc9-4ff5-9ff1-e619a192ec8c" name="Default Changelist" comment="poprawki">
+      <change afterPath="$PROJECT_DIR$/css/faces.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.facedetection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.zoom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zdjecia/children-817365_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efekty.html" beforeDir="false" afterPath="$PROJECT_DIR$/efekty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formularz.html" beforeDir="false" afterPath="$PROJECT_DIR$/formularz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slajder.html" beforeDir="false" afterPath="$PROJECT_DIR$/slajder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabela.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabela.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zdjecia/gifts-2998593_1920.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +29,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uo8kz3t82d6DfdDNAi3FxcXuZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -26,10 +50,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\css" />
       <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\js" />
-      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap" />
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\css" />
       <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\zdjecia" />
+      <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\stach\WebstormProjects\Projekt_1_Bootstrap\zdjecia" />
@@ -67,11 +91,26 @@
       <workItem from="1576875873638" duration="9560000" />
       <workItem from="1576893910339" duration="4391000" />
       <workItem from="1576923104768" duration="23893000" />
-      <workItem from="1576988464440" duration="10004000" />
+      <workItem from="1576988464440" duration="17205000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poprawki" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawki" />
   </component>
 </project>

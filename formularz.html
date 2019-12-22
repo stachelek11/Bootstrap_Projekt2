@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <!--metadane pod Bootstrapa-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Title</title>
-    <!--CSS Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Moj CSS-->
+    <title>O niczym</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 <body>
 <div class="container-fluid">
     <div class="row nawigacja">
         <header class="col-12 col-md-4">
-
         </header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12 col-md-8">
-
             <h2 class="mr-4 text-light">Nawigacja</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +27,7 @@
                         <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Carousel.html">Carousel</a>
+                        <a class="nav-link" href="carousel.html">Carousel</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tabela.html">Tabela</a>
@@ -50,6 +41,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="slajder.html">Slajder</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plugin.html">Plugin</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -59,15 +53,10 @@
             <div class="card-header">Wypełnij formularz</div>
             <div class="card-body">
         <form id="formul" method="post" action="">
-            <!--            Pola tekstowe-->
-
             <input id="imie" class="form-control form-control-lg" type="text" placeholder="Imię">
             <span class="komunikat"></span>
             <input id="nazwisko" class="form-control form-control-lg mt-3" type="text" placeholder="Nazwisko">
             <span class="komunikat"></span>
-
-<!--            jak umiesz BS-->
-
             <br>
             <label class="mt-3" for="customRange3">Jak bardzo umiesz BS ?</label>
             <div class="d-flex justify-content-center mb-2">
@@ -75,8 +64,6 @@
                     <input type="range" class="custom-range" min="0" max="100" step="5" id="customRange3">
                 <span class="font-weight-bold indigo-text ml-2 mt-1">100</span>
             </div>
-
-            <!-- Pole wyboru -->
             <div>
                 <span>Lubisz programować ?</span>
                 <div class="custom-control custom-radio my-1">
@@ -88,23 +75,16 @@
                     <label class="custom-control-label" for="defaultChecked">NIE!</label>
                 </div>
             </div>
-
-
-            <!--            switch-->
             <div class="switch">
             <div class="custom-control custom-switch mb-3">
                 <input type="checkbox" class="custom-control-input" id="customSwitches">
                 <label class="custom-control-label" for="customSwitches">Jestem studentem</label>
             </div>
             </div>
-
-<!--            Pole uploadu-->
             <span>Dodaj plik</span>
             <div class="file-upload-wrapper mt-2 mb-3">
                 <input type="file" id="input-file-now" class="file-upload" />
             </div>
-
-<!--            submit-->
             <div id="wyslij">
             <button class="btn btn-primary btn-sm" type="submit" style="line-height: 30px; width: 100px">Wyślij</button>
             </div>
@@ -117,16 +97,12 @@
             Autor: Damian Stachelek
         </footer>
     </div>
-
 </div>
-<!--JS Bootstrap-->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!--JS Moj-->
 <script src="js/main.js"></script>
-
 <script type="text/javascript">
     form_pole_uploadu();
 </script>
@@ -144,7 +120,5 @@
         });
     });
 </script>
-
 </body>
-
 </html>

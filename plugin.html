@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>O niczym</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/faces.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -24,7 +24,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Strona główna</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
@@ -43,41 +43,57 @@
                         <a class="nav-link" href="slajder.html">Slajder</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="plugin.html">Plugin</a>
+                        <a class="nav-link active" href="plugin.html">Plugin</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="row gallery">
-    <div class="col-12 col-md-6">
-        <a class="grouped_elements" rel="group1" href="zdjecia/girl-4056681_1280.jpg" data-lightbox="obrazki"><img class="d-block w-100 my-3" src="zdjecia/girl-4056681_640.jpg" alt=""/></a>
-    </div>
-        <div class="col-12 col-md-6">
-        <a class="grouped_elements" rel="group1" href="zdjecia/landscape-4701725_1280.jpg" data-lightbox="obrazki"><img class="d-block w-100 my-3" src="zdjecia/landscape-4701725_640.jpg" alt=""/></a>
-        </div>
-            <div class="col-12 col-md-6">
-        <a class="grouped_elements" rel="group2" href="zdjecia/poinsettia-3024434_1280.jpg" data-lightbox="obrazki"><img class="d-block w-100 my-3" src="zdjecia/poinsettia-3024434_640.jpg" alt=""/></a>
+    <div class="row align-items-center">
+        <div class="col-12">
+            <div class="picture-container">
+                <img id="picture" class="picture d-block w-100 my-3" src="zdjecia/children-817365_1920.jpg" alt="">
             </div>
-                <div class="col-12 col-md-6">
-        <a class="grouped_elements" rel="group2" href="zdjecia/snow-839665_1280.jpg" data-lightbox="obrazki"><img class="d-block w-100 my-3" src="zdjecia/snow-839665_640.jpg" alt=""/></a>
-    </div>
+            <a id="try-it" href="#">
+                <button type="button" class="mb-2 btn btn-dark button-try">Znajdź twarz</button>
+            </a>
+        </div>
     </div>
     <div class="row bg-dark">
         <footer class="col">
-            Autor: Damian Stachelek
+                Autor: Damian Stachelek
         </footer>
     </div>
 </div>
-<script src="js/lightbox-plus-jquery.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.facedetection.min.js"></script>
 <script>
-    lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true
-    })
+    $('#try-it').click(function (e) {
+        e.preventDefault();
+        $('.face').remove();
+        $('#picture').faceDetection({
+            complete: function (faces) {
+                for (var i = 0; i < faces.length; i++) {
+                    $('<div>', {
+                        'class':'face',
+                        'css': {
+                            'position': 'absolute',
+                            'left':   faces[i].x * faces[i].scaleX + 'px',
+                            'top':    faces[i].y * faces[i].scaleY + 'px',
+                            'width':  faces[i].width  * faces[i].scaleX + 'px',
+                            'height': faces[i].height * faces[i].scaleY + 'px'
+                        }
+                    })
+                        .insertAfter(this);
+                }
+            },
+            error:function (code, message) {
+                alert('Error: ' + message);
+            }
+        });
+    });
 </script>
 </body>
 </html>

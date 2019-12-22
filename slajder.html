@@ -1,29 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <!--metadane pod Bootstrapa-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Title</title>
-    <!--CSS Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Moj CSS-->
+    <title>O niczym</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-
-
-
 </head>
 <body>
 <div class="container-fluid">
     <div class="row nawigacja12 col-lg-6mb-2">
         <header class="col-12 col-md-4">
-
         </header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12 col-md-8">
-
             <h2 class="mr-4 text-light">Nawigacja</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +27,7 @@
                         <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Carousel.html">Carousel</a>
+                        <a class="nav-link" href="carousel.html">Carousel</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="tabela.html">Tabela</a>
@@ -52,6 +41,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="slajder.html">Slajder</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plugin.html">Plugin</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -59,28 +51,23 @@
     <div class="row align-items-center">
         <div class="col-2 prev">
             <button class="mb-2 btn btn-dark">
-            <img class="prev_button" src="zdjecia/prev.png"/>
+            <img class="prev_button" src="zdjecia/prev.png" alt=""/>
             </button>
         </div>
         <div id="slajder" class="col-8">
-
-
-
             <div class="zdj">
                 <img class="w-100 my-3 active first" alt="img1" src="zdjecia/poinsettia-3024434_1280.jpg">
                 <img class="w-100 my-3" alt="img2" src="zdjecia/snow-839665_1280.jpg">
                 <img class="w-100 my-3" alt="img3" src="zdjecia/landscape-4701725_1280.jpg">
                 <img class="w-100 my-3 last" alt="img3" src="zdjecia/girl-4056681_1280.jpg">
             </div>
-
         </div>
         <div class="col-2 next">
             <button class="mb-2 btn btn-dark">
-            <img class="next_button" src="zdjecia/next.png"/>
+            <img class="next_button" src="zdjecia/next.png" alt=""/>
             </button>
         </div>
     </div>
-
     <div class="row bg-dark">
         <footer class="col">
             <div>
@@ -88,15 +75,10 @@
             </div>
         </footer>
     </div>
-
-
 </div>
-<!--JS Bootstrap-->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function(){
         $('.next_button').on('click', function(){
@@ -114,11 +96,8 @@
                 currentImg.removeClass('active');
                 prev_img.addClass('active');
             }
-
         });
     });
 </script>
-
 </body>
-
 </html>

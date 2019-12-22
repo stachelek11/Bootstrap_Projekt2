@@ -1,0 +1,19 @@
+
+.button-try {
+    position: relative;
+    width: 250px;
+    margin: -80px calc(50% - 125px);
+}
+
+
+.picture-container {
+    position: relative;
+    max-width: 600px;
+    max-height: 338px;
+    margin: 20px auto 60px;
+}
+
+.face {
+    position: absolute;
+    border: 2px solid #FFF;
+}
